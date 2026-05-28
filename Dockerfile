@@ -1,17 +1,3 @@
-FROM ubuntu:22.04
+FROM nginx:alpine
 
-ENV DEBIAN_FRONTEND=noninteractive
-
-RUN apt update && apt install -y \
-    bash \
-    curl \
-    git \
-    ttyd
-
-# cria usuário simples (opcional)
-RUN useradd -m user
-
-WORKDIR /home/user
-
-# inicia terminal web
-CMD ["ttyd", "-p", "7681", "bash"]
+COPY index.html /usr/share/nginx/html/index.html
