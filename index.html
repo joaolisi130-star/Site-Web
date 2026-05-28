@@ -1,42 +1,21 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Linux Docker😐</title>
-  <style>
-    body {
-      font-family: Arial;
-      background: #111;
-      color: white;
-      text-align: center;
-      padding-top: 60px;
-    }
-    button {
-      padding: 15px 25px;
-      margin: 10px;
-      font-size: 18px;
-      cursor: pointer;
-      border-radius: 10px;
-    }
-    .debian { background: #a80030; color: white; }
-    .ubuntu { background: #e95420; color: white; }
-  </style>
+  <title>Dark Linux Terminal Free ( Kernel Completo )</title>
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-<h1>Escolha seu Linux ( voce nao conseguie trocar ram cores cpu gpu etc nada tudo e configurado ja )</h1>
+<div class="box">
+  <h1>Escolha seu Linux ( Voce nao conseguie Configurar a Maquina Tipo Ram core cpu gou etc</h1>
 
-<button class="debian" onclick="openDebian()">Debian (leve)</button>
-<button class="ubuntu" onclick="openUbuntu()">Ubuntu (leve)</button>
+  <button onclick="openDebian()">Debian</button>
+  <button onclick="openUbuntu()">Ubuntu</button>
+</div>
 
-<script>
-function openDebian() {
-    window.open("https://debian-production-5d3d.up.railway.app", "_blank");
-}
+<canvas id="bg"></canvas>
 
-function openUbuntu() {
-    window.open("https://ubuntu-production-28b1.up.railway.app", "_blank");
-}
-</script>
-
+<script src="script.js"></script>
 </body>
 </html>
