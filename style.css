@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+  overflow: hidden;
+  background: #000; /* preto infinito */
+  font-family: Arial;
+  color: white;
+}
+
+.box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  z-index: 10;
+
+  padding: 40px;
+  background: rgba(0,0,0,0.6);
+  border: 1px solid #222;
+  border-radius: 20px;
+  box-shadow: 0 0 30px #000;
+}
+
+button {
+  margin: 10px;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  background: #ffcc00; /* amarelo */
+  color: black;
+  font-weight: bold;
+}
+
+button:hover {
+  transform: scale(1.05);
+}
