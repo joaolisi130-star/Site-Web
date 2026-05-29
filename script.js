@@ -1,5 +1,5 @@
 function openDebian() {
-    window.open("https://debian-production-5d3d.up.railway.app", "_blank");
+    window.open("debian-production-0c1e.up.railway.app", "_blank");
 }
 
 function openUbuntu() {
