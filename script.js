@@ -3,7 +3,7 @@ function openDebian() {
 }
 
 function openUbuntu() {
-    window.open("https://ubuntu-production-28b1.up.railway.app", "_blank");
+    window.open("ubuntu-production-c056.up.railway.app", "_blank");
 }
 
 /* ===== BOLINHAS ===== */
